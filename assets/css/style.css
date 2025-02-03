@@ -63,11 +63,19 @@ aside .btn{
     border-radius: 50px;
 }
 
-footer{
+footer {
     text-align: center;
-    margin-top: 10px;
-
+    background-color: #28587B; 
+    color: antiquewhite; 
+    padding: 10px; 
+    font-size: 1.2rem;     
+    border-top: 0px solid #f0efe8; 
+    width: 100%;
+    
 }
+
+
+
 .instruction{
     text-align: center;
     margin: 5px;
@@ -86,9 +94,8 @@ footer{
     box-shadow: 1px 1px 6px 2px rgb(12, 20, 80);
     width: 150px;
     height: 50px;
-
-
 }
+
 .box{
     border: #3b5ad5 2px solid;
     display: inline-block;
@@ -97,7 +104,7 @@ footer{
     height: 500px;
     max-width: 90%;
     min-width: 280px;
-    margin: 5px;
+    margin: 10px;
     background-color: #f0efe8;
     text-align: center;
 
@@ -199,7 +206,8 @@ aside .btn{
     }
     
     .box {
-        width: 90%; /* Make it stack nicely */
+        width: 90%;
+        border-radius: 25px;
     }
 }
 
